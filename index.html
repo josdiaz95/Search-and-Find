@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TreasureHunt</title>
+    <link rel="stylesheet" href="styleit.css">
+</head>
+<body>
+<div id="wrapper">
+
+<h1>Seek and Find</h1>
+    <img src="find.jpeg" usemap="#image_map" alt="christmas hunt" width=516 >
+    <map name="image_map">
+        <area id="santa" alt="Oh no!Santa is stuck!" title="Oh no!Santa is stuck!" href="#" coords="500,300,40" shape="circle">
+        <area id="reindeer" alt="It's a great time to take a nap!" title="It's a great time to take a nap!" href="#" coords="500,410,40" shape="circle">
+        <area id="dog" alt="I love sledding, woof!" title="I love sledding, woof!" href="#" coords="580,110,20" shape="circle">
+        <area id="elf" alt="Hey, I want to have fun too!" title="Hey,Santa!" href="#" coords=150,470,30" shape="circle">
+        <area id="bird" alt="Help Santa!" title="Hey, I want to have fun too!" href="#" coords="150,200,20" shape="circle">
+    </map>
+
+
+    <h2>Can you find these items?</h2>
+     <ul>
+        <li>Santa stuck in the chimney</li>
+        <li>Reindeer sleeping</li>
+        <li>Dog sledding</li>
+         <li>Bird in cage</li>
+         <li>Elf pointing</li>
+    </ul>
+ <h2 id="heading2">Yay!You found:</h2>
+    <p id="found"></p>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="code.js"></script>
+</body>
+</html>
